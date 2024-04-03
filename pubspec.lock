@@ -70,6 +70,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_credit_card:
+    dependency: "direct main"
+    description:
+      name: flutter_credit_card
+      sha256: dffaee369b0e64fb81e63e78d6410762f73b67346692bd2ae7bdcc6d911452e3
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.0.1"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -78,6 +86,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.3"
+  flutter_stripe:
+    dependency: "direct main"
+    description:
+      name: flutter_stripe
+      sha256: "7ad314650f6b794e7006a6f906ddbde548fff4e4cff7ad618452728c6b895d1e"
+      url: "https://pub.dev"
+    source: hosted
+    version: "9.5.0+1"
   flutter_svg:
     dependency: "direct main"
     description:
@@ -91,6 +107,27 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_web_plugins:
+    dependency: transitive
+    description: flutter
+    source: sdk
+    version: "0.0.0"
+  font_awesome_flutter:
+    dependency: "direct main"
+    description:
+      name: font_awesome_flutter
+      sha256: "959ef4add147753f990b4a7c6cccb746d5792dbdc81b1cde99e62e7edb31b206"
+      url: "https://pub.dev"
+    source: hosted
+    version: "10.4.0"
+  freezed_annotation:
+    dependency: transitive
+    description:
+      name: freezed_annotation
+      sha256: c3fd9336eb55a38cc1bbd79ab17573113a8deccd0ecbbf926cca3c62803b5c2d
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.4.1"
   js:
     dependency: transitive
     description:
@@ -99,6 +136,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.6.5"
+  json_annotation:
+    dependency: transitive
+    description:
+      name: json_annotation
+      sha256: b10a7b2ff83d83c777edba3c6a0f97045ddadd56c944e1a23a3fdf43a1bf4467
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.8.1"
   lints:
     dependency: transitive
     description:
@@ -155,6 +200,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "5.1.0"
+  plugin_platform_interface:
+    dependency: transitive
+    description:
+      name: plugin_platform_interface
+      sha256: da3fdfeccc4d4ff2da8f8c556704c08f912542c5fb3cf2233ed75372384a034d
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.6"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -192,6 +245,30 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.0"
+  stripe_android:
+    dependency: transitive
+    description:
+      name: stripe_android
+      sha256: "1de36b35c50f33e538c8e4bd6173f0ab8d7d8e6b9e05388488775e439c29b7d2"
+      url: "https://pub.dev"
+    source: hosted
+    version: "9.6.0+2"
+  stripe_ios:
+    dependency: transitive
+    description:
+      name: stripe_ios
+      sha256: "4b176f4ee7eaf229815b90c3ff78935da9e01765f4d3153b76fd0d3d64680294"
+      url: "https://pub.dev"
+    source: hosted
+    version: "9.6.0"
+  stripe_platform_interface:
+    dependency: transitive
+    description:
+      name: stripe_platform_interface
+      sha256: "078142b37e3b7a40f7f9f30428bc3fd3234c493b9b4269ae6f298b7fcfa40f33"
+      url: "https://pub.dev"
+    source: hosted
+    version: "9.5.0+1"
   term_glyph:
     dependency: transitive
     description:
