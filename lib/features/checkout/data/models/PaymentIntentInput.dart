@@ -4,7 +4,7 @@ class PaymentIntentInput{
 
   PaymentIntentInput({required this.amount, required this.currency});
 
-  Map toJson(){
+  Map<String, dynamic> toJson(){
     return {
       "amount": amount,
       "currency": currency,

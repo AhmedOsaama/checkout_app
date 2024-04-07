@@ -1,5 +1,7 @@
+import 'package:checkout_app/core/widgets/custom_button.dart';
 import 'package:flutter/material.dart';
 
+import 'custom_button_bloc_consumer.dart';
 import 'payment_methods_list_view.dart';
 
 class PaymentMethodsBottomSheet extends StatefulWidget {
@@ -39,9 +41,10 @@ class _PaymentMethodsBottomSheetState extends State<PaymentMethodsBottomSheet> {
           const SizedBox(
             height: 32,
           ),
-          // CustomButtonBlocConsumer(
-          //   isPaypal: isPaypal,
-          // ),
+          // CustomButton(text: 'Continue', isLoading: false,)
+          CustomButtonBlocConsumer(
+            isPaypal: isPaypal,
+          ),
         ],
       ),
     );
